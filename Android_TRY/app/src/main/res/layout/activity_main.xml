@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/allFlipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.ecust.ltree.android_try.MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/homeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvTest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="50dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:padding="15dp"
+            android:text="0" />
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:background="@color/powderblue"
+            android:textColor="@color/white"
+            android:padding="13dp"
+            android:text="Start"/>
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="320dp"
+            android:text="EXIT"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:background="@color/lightgray"
+            />
+    </LinearLayout>
+
+</ViewFlipper >
